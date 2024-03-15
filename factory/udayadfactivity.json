@@ -1,0 +1,9 @@
+{
+	"name": "udayadfactivity",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b3416af8-f8d5-4130-ad49-371ea8c185e1",
+		"tenantId": "2d2199a8-cb98-4269-b2ae-c63cf2b7c7f0"
+	}
+}
