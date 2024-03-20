@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "Udaykiranjv/capstone/main/Global_Superstore_Master_File.csv"
+				"relativeUrl": "Udaykiranjv/capstone/main/Global_Superstore_Master_File%20(1).csv"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
