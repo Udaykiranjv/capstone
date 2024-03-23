@@ -1,0 +1,32 @@
+{
+	"name": "rawsink2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "UdayKiran/Raw",
+				"fileSystem": "uc-metastore-eastus2"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Customer ID",
+				"type": "String"
+			},
+			{
+				"name": "Customer Name",
+				"type": "String"
+			}
+		]
+	}
+}

@@ -48,13 +48,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "gitdata1",
+						"referenceName": "rawgit1",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "gitDelimitedText1",
+						"referenceName": "rawsink1",
 						"type": "DatasetReference"
 					}
 				]
@@ -105,13 +105,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "gitdata2",
+						"referenceName": "rawgit2",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "gitDelimitedText2",
+						"referenceName": "rawsink2",
 						"type": "DatasetReference"
 					}
 				]
